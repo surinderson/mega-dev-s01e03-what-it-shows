@@ -2,7 +2,7 @@
 layout: runbook
 title: '#4471 · two date problems in one ticket'
 owner: support desk
-status: known
+status: closed
 reviewed: 2026-10-28
 signature: Krzysztof Semenowicz
 ---
@@ -40,15 +40,19 @@ Split by cause, not by subject or intake tag. The tenant locale and booking form
 
 The intake tag is only a guess: 23 parser-cause reports were tagged `hint`, and 15 hint-cause reports were tagged `parser`. Use the tenant locale and form configuration to classify them.
 
+## Engineering update · 5 October
+
+The support desk closed #4471 on 5 October. Engineering fixed the parser cause with `fix(dates): parse dd/mm for eu locales`. The booking-v3 hint cause will not be fixed because the booking-v3 form was retired.
+
 ## Since April
 
 <QueueTimeline ticket={4471} />
 
 ## Tickets
 
-Separate challenge tickets:
+Separate challenge tickets and outcomes:
 
-- [#1 · parser cause](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/1)
-- [#2 · booking-v3 hint cause](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/2)
+- [#1 · parser cause](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/1) — completed: the parser fix shipped.
+- [#2 · booking-v3 hint cause](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/2) — not planned: the booking-v3 form was retired.
 
 <RenderStamp {signature} />
