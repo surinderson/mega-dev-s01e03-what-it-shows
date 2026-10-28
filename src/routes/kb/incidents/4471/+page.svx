@@ -22,7 +22,13 @@ Split by cause, not by subject or intake tag. The tenant locale and booking form
 
 ## What the reports show
 
-<CauseTable ticket={4471} />
+<CauseTable
+  ticket={4471}
+  issueUrls={{
+    parser: 'https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/1',
+    hint: 'https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/2',
+  }}
+/>
 
 ### Parser reads day-first dates as month-first
 
