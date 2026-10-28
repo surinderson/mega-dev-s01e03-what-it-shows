@@ -21,7 +21,7 @@ Start with [triage](/kb/triage/dedupe) if you are new on the desk.
 
 ## Recent incident
 
-[Ticket #4471 · two date problems in one ticket](/kb/incidents/4471)
+[Ticket #4471 · dates parse mm/dd in eu locales](/kb/incidents/4471)
 
 ## Writing a page
 
