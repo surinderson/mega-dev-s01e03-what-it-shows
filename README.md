@@ -37,9 +37,11 @@ Exported 2026-10-04 from the `support` repo, `apps/kb/` → `src/`.
 
 ## Incident #4471
 
-- Source page: [src/routes/kb/incidents/4471/+page.svx](src/routes/kb/incidents/4471/+page.svx)
-- Rendered page: [kb/incidents/4471/index.html](kb/incidents/4471/index.html)
+The export contains 412 unique reports (427 rows, including 15 repeated report IDs). The ticket combines two causes:
 
-- Public page: [#4471 KB page](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/incidents/4471/)
+- **379 reports:** day-first dates parsed as month-first across 11 tenants ([issue #1](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/1)).
+- **33 reports:** the booking-v3 `MM/DD/YYYY` hint conflicts with day-first tenant locales across 3 tenants ([issue #2](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/2)).
 
-- KB index: [public support KB](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/)
+Full analysis: [source page](src/routes/kb/incidents/4471/+page.svx) · [rendered page](kb/incidents/4471/index.html) · [public KB page](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/incidents/4471/)
+
+KB index: [source](src/routes/kb/+page.svx) · [public support KB](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/)
