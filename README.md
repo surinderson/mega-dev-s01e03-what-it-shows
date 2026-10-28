@@ -37,10 +37,10 @@ Exported 2026-10-04 from the `support` repo, `apps/kb/` → `src/`.
 
 ## Incident #4471
 
-The export contains 412 unique reports (427 rows, including 15 repeated report IDs). The ticket combines two causes:
+Ticket #4471 combines two causes:
 
-- **379 reports:** day-first dates parsed as month-first across 11 tenants ([issue #1](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/1)).
-- **33 reports:** the booking-v3 `MM/DD/YYYY` hint conflicts with day-first tenant locales across 3 tenants ([issue #2](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/2)).
+- **Shared parser:** day-first dates are parsed as month-first ([issue #1](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/1)).
+- **Booking-v3 hint:** the `MM/DD/YYYY` hint conflicts with day-first tenant locales ([issue #2](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/2)).
 
 Full analysis: [source page](src/routes/kb/incidents/4471/+page.svx) · [rendered page](kb/incidents/4471/index.html) · [public KB page](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/incidents/4471/)
 

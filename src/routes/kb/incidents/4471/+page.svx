@@ -14,7 +14,7 @@ signature: Krzysztof Semenowicz
   import RenderStamp from '#lib/kb/RenderStamp.svelte';
 </script>
 
-The export contains **412 unique reports** merged into #4471. It has 427 rows because 15 report IDs repeat across overlapping export pages. The tenant configuration shows that the ticket combines two separate problems.
+The export spans overlapping pages, so count each report ID once. The tenant configuration shows that #4471 combines two separate problems.
 
 <Callout>
 Split by cause, not by subject or intake tag. The tenant locale and booking form identify the cause.
@@ -32,13 +32,11 @@ Split by cause, not by subject or intake tag. The tenant locale and booking form
 
 ### Parser reads day-first dates as month-first
 
-**379 reports across 11 tenants.** The shared parser reads every date month-first. For these day-first tenants, that flips the date. The reports came through app (204), email (150), and form (25) channels. The five reports marked as one-day moves in the desk notes also belong to this cause.
+The shared parser reads every date month-first. For day-first tenants, that flips the date. These reports arrived through app, email, and form channels. Intake tags are only a guess; use tenant locale to classify the reports.
 
 ### Booking-v3 date hint conflicts with tenant locale
 
-**33 reports across 3 tenants.** These reports came through booking-v3 forms. The form displays `MM/DD/YYYY`, while the tenants use day-first locales. People follow the hint, then the form interprets the value using the tenant's day-first order and flips it.
-
-The intake tag is only a guess: 23 parser-cause reports were tagged `hint`, and 15 hint-cause reports were tagged `parser`. Use the tenant locale and form configuration to classify them.
+These reports came through booking-v3 forms. The form displays `MM/DD/YYYY`, while the tenants use day-first locales. People follow the hint, then the form interprets the value using the tenant's day-first order and flips it. Use the tenant locale and form configuration to classify the reports; intake tags are only a guess.
 
 ## Engineering update · 5 October
 
