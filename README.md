@@ -38,4 +38,4 @@ Exported 2026-10-04 from the `support` repo, `apps/kb/` → `src/`.
 ## Incident #4471
 
 - Source page: [src/routes/kb/incidents/4471/+page.svx](src/routes/kb/incidents/4471/+page.svx)
-- Rendered page: [rendered/kb/incidents/4471.html](rendered/kb/incidents/4471.html)
+- Rendered page: [kb/incidents/4471/index.html](kb/incidents/4471/index.html)
