@@ -1,7 +1,7 @@
 <script lang="ts">
   import reports from '#lib/data/reports-4471.json';
   import notes from '#lib/data/desk-notes.json';
-  import { groupByCause, readAs, ticketCause, uniqueById, type Report } from '#lib/kb/causes';
+  import { groupByCause, readAs, ticketCause, uniqueById, type CauseGroup, type Report } from '#lib/kb/causes';
   import { tenantOf } from '#lib/kb/locales';
 
   let {
