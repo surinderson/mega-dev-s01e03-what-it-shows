@@ -42,8 +42,6 @@ Ticket #4471 combines two causes:
 - **Shared parser:** day-first dates are parsed as month-first ([issue #1](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/1)).
 - **Booking-v3 hint:** the `MM/DD/YYYY` hint conflicts with day-first tenant locales ([issue #2](https://github.com/surinderson/mega-dev-s01e03-what-it-shows/issues/2)).
 
-Cause page: [signed .svx source](src/routes/kb/incidents/4471-causes/+page.svx) · [rendered page](kb/incidents/4471-causes/index.html) · [public KB page](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/incidents/4471-causes/)
-
-Full analysis: [source page](src/routes/kb/incidents/4471/+page.svx) · [rendered page](kb/incidents/4471/index.html) · [public KB page](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/incidents/4471/)
+Signed incident page: [source .svx](src/routes/kb/incidents/4471/+page.svx) · [rendered page](kb/incidents/4471/index.html) · [public KB page](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/incidents/4471/)
 
 KB index: [source](src/routes/kb/+page.svx) · [public support KB](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/)
