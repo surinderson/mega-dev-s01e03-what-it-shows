@@ -39,6 +39,6 @@ The booking-v3 form showed `MM/DD/YYYY` to tenants whose locale is day-first, th
 
 ## Full incident page
 
-See the [full #4471 incident analysis](/kb/incidents/4471) for the timeline and supporting context.
+See the [full #4471 incident analysis](../4471/) for the timeline and supporting context.
 
 <RenderStamp {signature} />
