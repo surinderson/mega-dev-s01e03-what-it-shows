@@ -41,3 +41,5 @@ Exported 2026-10-04 from the `support` repo, `apps/kb/` → `src/`.
 - Rendered page: [kb/incidents/4471/index.html](kb/incidents/4471/index.html)
 
 - Public page: [#4471 KB page](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/incidents/4471/)
+
+- KB index: [public support KB](https://surinderson.github.io/mega-dev-s01e03-what-it-shows/kb/)
