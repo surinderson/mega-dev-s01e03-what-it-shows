@@ -34,3 +34,8 @@ Support desk. Decision records: whoever signed them.
 ---
 
 Exported 2026-10-04 from the `support` repo, `apps/kb/` → `src/`.
+
+## Incident #4471
+
+- Source page: [src/routes/kb/incidents/4471/+page.svx](src/routes/kb/incidents/4471/+page.svx)
+- Rendered page: [rendered/kb/incidents/4471/index.html](rendered/kb/incidents/4471/index.html)
