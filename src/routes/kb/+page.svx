@@ -23,6 +23,8 @@ Start with [triage](/kb/triage/dedupe) if you are new on the desk.
 
 [Ticket #4471 · two date problems in one ticket](/kb/incidents/4471)
 
+Cause breakdown: [signed page for the two #4471 problems](/kb/incidents/4471-causes/)
+
 ## Writing a page
 
 Keep the words here and the logic in `src/lib`. A number that can be computed should be
